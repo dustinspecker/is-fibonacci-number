@@ -1,0 +1,10 @@
+sudo: false
+language: node_js
+node_js:
+  - "5"
+install:
+  - npm i -g elm
+  - npm i -g elm-test
+  - elm package install
+script:
+  - elm test TestRunner.elm
