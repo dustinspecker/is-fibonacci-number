@@ -9,10 +9,10 @@ module IsFibonacciNumber (test) where
 
 {-| Determine if an Int is a Fibonacci Number.
 
-  test -1 -- False
-  test 0 -- False
-  test 3 -- True
-  test 4 -- False
+    test -1 == False
+    test 0 == False
+    test 3 == True
+    test 4 == False
 
 -}
 test : Int -> Bool

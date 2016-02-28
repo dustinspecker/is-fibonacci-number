@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Determine if an Int is a Fibonacci Number",
-    "repository": "https://github.com/dustinspecker/is-fibonacci-number",
+    "repository": "https://github.com/dustinspecker/is-fibonacci-number.git",
     "license": "MIT",
     "source-directories": [
         "."
