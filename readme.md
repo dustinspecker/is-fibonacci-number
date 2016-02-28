@@ -1,4 +1,4 @@
-# IsFibonacciNumber
+# IsFibonacciNumber [![Build Status](https://travis-ci.org/dustinspecker/is-fibonacci-number.svg?branch=master)](https://travis-ci.org/dustinspecker/is-fibonacci-number)
 > Determine if an Int is a Fibonacci Number
 
 ## Install
