@@ -5,6 +5,6 @@ node_js:
 install:
   - npm i -g elm
   - npm i -g elm-test
-  - elm package install
+  - elm package install -y
 script:
   - elm test TestRunner.elm
