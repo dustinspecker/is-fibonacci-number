@@ -7,6 +7,7 @@ module IsFibonacciNumber (test) where
 
 -}
 
+
 {-| Determine if an Int is a Fibonacci Number.
 
     test -1 == False
@@ -18,11 +19,16 @@ module IsFibonacciNumber (test) where
 test : Int -> Bool
 test n =
   let
-    nCommon = 5 * (toFloat n)^2
-    nPos = sqrt (nCommon + 4)
-    nNeg = sqrt (nCommon - 4)
+    nCommon =
+      5 * (toFloat n) ^ 2
+
+    nPos =
+      sqrt (nCommon + 4)
+
+    nNeg =
+      sqrt (nCommon - 4)
   in
-    if n <= 0
-      then False
-      else
-        toFloat(floor nPos) == nPos || toFloat(floor nNeg) == nNeg
+    if n <= 0 then
+      False
+    else
+      toFloat (floor nPos) == nPos || toFloat (floor nNeg) == nNeg
